@@ -1,9 +1,13 @@
 import "./App.css";
-import { SearchBar } from "./components/SearchBar";
+// import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
+// import HooksCounter from "./components/HooksCounter";
+import UseStateWithObjects from "./components/UseStateWithObjects";
 
 function App() {
   return <div className="App">
-      <SearchBar />
+      {/* <StatefulGreetingWithPrevState />
+      <HooksCounter /> */}
+      <UseStateWithObjects />
   </div>;
 }
 
